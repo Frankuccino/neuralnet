@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neuralnet-portfolio"
+version = "0.1.0"
+description = "A monorepo for neural network implementations from scratch"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    # Core micrograd has 0 external dependencies!
+]
+
+[project.optional-dependencies]
+dev = [
+    "graphviz",
+    "matplotlib",
+    "numpy",
+    "pytest"
+]
+
+# Explicitly tell setuptools which package to install
+[tool.setuptools]
+packages = ["micrograd"]
