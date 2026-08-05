@@ -1,4 +1,4 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Frankuccino/neuralnet/blob/main/micrograd.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ujQeHOUIIvR3cruNT5r-4NZcCRAfOaPR)
 
 # Micrograd Neuron: Value
 
